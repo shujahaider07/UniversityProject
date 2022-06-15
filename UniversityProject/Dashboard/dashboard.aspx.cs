@@ -23,7 +23,7 @@ namespace UniversityProject.Dashboard
             if (Session["user"] != null)
             {
                 Session["user"] = null;
-                Response.Redirect("~/Login.aspx");
+                Response.Redirect("~/Default.aspx");
             }
 
 
