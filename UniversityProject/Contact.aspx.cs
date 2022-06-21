@@ -29,6 +29,9 @@ namespace UniversityProject
             if (a > 0)
             {
                 this.ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", "swal('Good job!', 'Form Submitted Sucessfully!', 'success');", true);
+                clearData();
+
+                
             }
             else
             {
@@ -38,5 +41,14 @@ namespace UniversityProject
             sql.Close();
 
         }
+        public void clearData()
+        {
+            nametxt.Text = "";
+            emailtxt.Text = "";
+            Contacttxt.Text = "";
+            Subjecttxt.Text = "";
+
+        }
+
     }
 }

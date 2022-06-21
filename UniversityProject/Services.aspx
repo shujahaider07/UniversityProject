@@ -88,7 +88,7 @@ s0.parentNode.insertBefore(s1,s0);
             </ul>
           </li>
      --%>     <li><a href="contact.aspx">Contact Us</a></li>
-            <li><a href="Login.aspx">Login</a></li>
+            <%--<li><a href="Login.aspx">Login</a></li>--%>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -355,9 +355,8 @@ s0.parentNode.insertBefore(s1,s0);
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-               <br>Gulistan e johar
+                Gulistan e johar
               karachi, pakistan<br>
-               <br><br>
               <strong>Phone:</strong> +923028921819<br>
               <strong>Email:</strong> syrshuja@gmail.com<br>
             </p>
