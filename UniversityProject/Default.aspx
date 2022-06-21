@@ -18,6 +18,20 @@ s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
+    <%--<script type="text/javascript">
+        (function () {
+            var options = {
+                whatsapp: "+923028921819", // WhatsApp number
+                call_to_action: "Contact us ", // Call to action
+                button_color: "#FF6550", // Color of button
+                position: "right", // Position may be 'right' or 'left'
+            };
+            var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
+    </script>--%>
 <!--End of Tawk.to Script-->
   <title>MIDDLE MAN</title>
   <meta content="" name="description">
@@ -91,7 +105,7 @@ s0.parentNode.insertBefore(s1,s0);
             </ul>
           </li>
          --%> <li><a href="contact.aspx">Contact Us</a></li>
-               <li><a href="Login.aspx">Login</a></li>
+              <%-- <li><a href="Login.aspx">Login</a></li>--%>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -343,7 +357,6 @@ Government agencies perform regular audits of independently licensed escrow comp
             <p>
              Gulistan e johar ,  <br>
                    karachi, pakistan <br>
-               <br><br>
               <strong>Phone:</strong> +923028921819<br>
               <strong>Email:</strong> Syrshuja@gmail.com<br>
             </p>
