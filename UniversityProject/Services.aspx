@@ -43,12 +43,6 @@ s0.parentNode.insertBefore(s1,s0);
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: MIDDLE MAN - v2.2.1
-  * Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-MIDDLE MAN/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 <body>
     <form id="form1" runat="server">
@@ -68,27 +62,9 @@ s0.parentNode.insertBefore(s1,s0);
           <li class="active"><a href="services.aspx">Services</a></li>
              
 
-          <%--<li><a href="portfolio.aspx">Portfolio</a></li>--%>
-     
-<%--          <li class="drop-down"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>
-     --%>     <li><a href="contact.aspx">Contact Us</a></li>
-            <li><a href="Login.aspx">Login</a></li>
+
+         <li><a href="contact.aspx">Contact Us</a></li>
+            <%--<li><a href="Login.aspx">Login</a></li>--%>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -122,14 +98,14 @@ s0.parentNode.insertBefore(s1,s0);
                     padding-bottom:20px;
                  }
             </style>
-    <section class="services">
+    <%--<section class="services">
       <div class="container">
 
         <div class="row">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
             <div class="icon-box icon-box-blue">
               <%--<div class="icon-box ><img src="assets/img/icon.png" /></div>--%>
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+             <%-- <div class="icon"><i class="bx bxl-dribbble"></i></div>
                 <h2>Benefits of Using Middle man</h2>
                 <p>People resort to Middle man when they need to buy or sell something of value but don’t know the other party, regardless of where the transaction takes place</p>
             </div>
@@ -158,12 +134,12 @@ s0.parentNode.insertBefore(s1,s0);
                 <h2>Seller Protection</h2>
               <p class="description"><span style="color: rgb(79, 87, 89); font-family: Roboto, Helvetica, Arial, &quot;Microsoft Yahei&quot;, 微软雅黑, STXihei, 华文细黑, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Selling goods or services can be risky, especially if they’re highly valuable, because you’ll generally be dealing with people you don’t know or trust.</span></p>
             </div>
-          </div>
+          </div>--%>
 
-        </div>
+     <%--  </div>--%>
 
-      </div>
-    </section><!-- End Services Section -->
+  <%--    </div>
+    </section--%>><!-- End Services Section -->
 
     <!-- ======= Why Us Section ======= -->
     <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
@@ -355,9 +331,8 @@ s0.parentNode.insertBefore(s1,s0);
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-               <br>Gulistan e johar
+                Gulistan e johar
               karachi, pakistan<br>
-               <br><br>
               <strong>Phone:</strong> +923028921819<br>
               <strong>Email:</strong> syrshuja@gmail.com<br>
             </p>

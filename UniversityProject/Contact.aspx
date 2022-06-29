@@ -6,7 +6,7 @@
 <head runat="server">
        <!--Start of Tawk.to Script-->
 <script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+var Tawk_API=Tawk_API||{}, Tawk_Load    Start=new Date();
 (function(){
 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
 s1.async=true;
@@ -44,12 +44,6 @@ s0.parentNode.insertBefore(s1,s0);
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Moderna - v2.2.1
-  * Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 
 </head>
 <body>
@@ -71,7 +65,7 @@ s0.parentNode.insertBefore(s1,s0);
         <ul>
           <li><a href="Default.aspx">Home</a></li>
           <li><a href="about.aspx">About Us</a></li>
-          <li><a href="services.aspx">Services</a></li>
+         <%-- <li><a href="services.aspx">Services</a></li>--%>
                
           <%--<li><a href="portfolio.aspx">Portfolio</a></li>--%>
 
@@ -94,7 +88,7 @@ s0.parentNode.insertBefore(s1,s0);
             </ul>
           </li>
           --%><li class="active"><a href="contact.aspx">Contact Us</a></li>
-            <li><a href="Login.aspx">Login</a></li>
+            <%--<li><a href="Login.aspx">Login</a></li>--%>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -165,7 +159,7 @@ s0.parentNode.insertBefore(s1,s0);
                   <div class="validate"></div>--%>
                      <asp:TextBox ID="emailtxt" runat="server" placeholder="Your Email" class="form-control"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" Display="Dynamic" runat="server" ErrorMessage="Enter Your Email" ControlToValidate="emailtxt" ForeColor="Red"> </asp:RequiredFieldValidator>
-
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="Email Format Invalid" ControlToValidate="emailtxt" ForeColor="Red" Display="Dynamic" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
                 </div>
               <div class="col-md-6 form-group">
                   <asp:TextBox ID="Contacttxt" runat="server" placeholder="Your number" class="form-control"></asp:TextBox>
@@ -184,10 +178,13 @@ s0.parentNode.insertBefore(s1,s0);
 
     
                   <div>
-        
-                  <asp:Button ID="Button1" runat="server" Text="Submit Form" class="btn btn-outline-primary" OnClick="Button1_Click" />
+                   
+ <asp:Button ID="Button1" runat="server" Text="Submit Form" class="btn btn-outline-primary" OnClick="Button1_Click" />
             <%--  <div class="text-center"><button type="submit">Send Message</button></div>--%>
                     </div>
+
+
+                 
               </div>
             </form>
           </div>
@@ -228,29 +225,21 @@ s0.parentNode.insertBefore(s1,s0);
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="default.aspx">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="About.aspx">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="Services.aspx">Services</a></li>
+              <%--<li><i class="bx bx-chevron-right"></i> <a href="Services.aspx">Services</a></li>--%>
               <%--<li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>--%>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
+      
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              Gulistan e johar <br>
+              Gulistan e johar 
               <br>
-              karachi, pakistan <br><br>
+              karachi, pakistan <br>
               <strong>Phone:</strong> +923028921819<br>
               <strong>Email:</strong> syrshuja@gmail.com<br>
             </p>

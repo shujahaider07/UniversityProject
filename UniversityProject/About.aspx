@@ -65,7 +65,7 @@ s0.parentNode.insertBefore(s1,s0);
         <ul>
           <li><a href="Default.aspx">Home</a></li>
           <li class="active"><a href="about.aspx">About Us</a></li>
-          <li><a href="services.aspx">Services</a></li>
+         <%-- <li><a href="services.aspx">Services</a></li>--%>
            
         <%--  <li><a href="portfolio.aspx">Portfolio</a></li>
    --%>
@@ -87,7 +87,7 @@ s0.parentNode.insertBefore(s1,s0);
             </ul>
           </li>
          --%> <li><a href="contact.aspx">Contact Us</a></li>
-                <li><a href="Login.aspx">Login</a></li>
+               <%-- <li><a href="Login.aspx">Login</a></li>--%>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -253,28 +253,7 @@ s0.parentNode.insertBefore(s1,s0);
             </p>
           </div>
 
-          <%--<div class="testimonial-item">
-            <img src="assets/img/testimonials/shuja.jpg" class="testimonial-img" alt="">
-            <h3>Matt Brandon</h3>
-            <h4>Freelancer</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>--%>
-
-        <%--  <div class="testimonial-item">
-            <img src="assets/img/testimonials/shuja.jpg" class="testimonial-img" alt="">
-            <h3>John Larson</h3>
-            <h4>Entrepreneur</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>--%>
-
+   
         </div>
 
       </div>
@@ -306,29 +285,19 @@ s0.parentNode.insertBefore(s1,s0);
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="Default.aspx">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="About.aspx">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="Services.aspx">Services</a></li>
+             <%-- <li><i class="bx bx-chevron-right"></i> <a href="Services.aspx">Services</a></li>--%>
          <%--     <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>--%>
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
+   
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-             gulistan e johar <br>
+                Gulistan e johar <br>
               karachi, pakistan<br>
-               <br><br>
               <strong>Phone:</strong> +923028921819<br>
               <strong>Email:</strong> syrshuja@gmail.com<br>
             </p>
