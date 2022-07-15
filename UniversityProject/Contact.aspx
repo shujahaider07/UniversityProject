@@ -185,7 +185,7 @@ s0.parentNode.insertBefore(s1,s0);
     
                   <div>
         
-                  <asp:Button ID="Button1" runat="server" Text="Submit Form" class="btn btn-outline-primary" OnClick="Button1_Click" />
+                  <asp:Button ID="Button1" runat="server" Text="Submit Form" class="btn btn-primary" OnClick="Button1_Click" />
             <%--  <div class="text-center"><button type="submit">Send Message</button></div>--%>
                     </div>
               </div>
@@ -234,7 +234,7 @@ s0.parentNode.insertBefore(s1,s0);
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+        <%--  <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
@@ -243,7 +243,7 @@ s0.parentNode.insertBefore(s1,s0);
               <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
             </ul>
-          </div>
+          </div>--%>
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>

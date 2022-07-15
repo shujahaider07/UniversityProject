@@ -312,7 +312,7 @@ s0.parentNode.insertBefore(s1,s0);
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+       <%--   <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
@@ -321,7 +321,7 @@ s0.parentNode.insertBefore(s1,s0);
               <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
             </ul>
-          </div>
+          </div>--%>
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
